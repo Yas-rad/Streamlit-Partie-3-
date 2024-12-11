@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
 
 # Fonction d'authentification
 def authenticate(username, password):
-    return username == "root" and password == "password"
+    return username == "root" and password == "rootMDP"
 
 # Fonction principale
 def main():
